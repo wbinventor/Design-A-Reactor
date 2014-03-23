@@ -124,8 +124,8 @@ class LocalSimulator(QThread):
 
         self.materials_file = 'design-a-reactor-materials.hdf5'
         self.input_file = 'design-a-reactor.py'
-        self.flux1_file = 'plots/fsr-flux-group-1.png'
-        self.flux7_file = 'plots/fsr-flux-group-7.png'
+        self.flux1_file = 'fsr-flux-group-1.png'
+        self.flux7_file = 'fsr-flux-group-7.png'
 
         # NOTE: Need to query local path, and ignore remote path
         self.remote_path = ''
@@ -143,6 +143,8 @@ class LocalSimulator(QThread):
 
         os.system('rm -rf log/ plots/')
         os.system('python design-a-reactor.py -a 16 -t 8 --tolerance=1E-3 -f True')
+        os.system('mv plots/%s %s' % (self.flux1_file, self.flux1_file))
+        os.system('mv plots/%s %s' % (self.flux7_file, self.flux7_file))
         os.system('mv log/openmoc* log/output.txt')
         os.system('cp log/%s output.txt' % self.output_file)
 

@@ -1,4 +1,4 @@
-Current local time and date: Sun Mar 23 19:19:55 2014
+Current local time and date: Sun Mar 23 19:28:02 2014
 [  TITLE  ]  *******************************************************************
 [  TITLE  ]           Simulating a Design-a-Critical Reactor Problem...         
 [  TITLE  ]  *******************************************************************
@@ -14,27 +14,23 @@ Current local time and date: Sun Mar 23 19:19:55 2014
 [  NORMAL ]  Converging the source...
 [  NORMAL ]  creating surface currents of size: 201600
 [  NORMAL ]  Iteration 0: 	k_eff = 1.000000	res = 0.000E+00
-[  NORMAL ]  Iteration 1: 	k_eff = 0.801162	res = 1.771E+05
-[  NORMAL ]  Iteration 2: 	k_eff = 1.028672	res = 1.381E+01
-[  NORMAL ]  Iteration 3: 	k_eff = 1.025959	res = 2.896E-01
-[  NORMAL ]  Iteration 4: 	k_eff = 1.019736	res = 4.084E-02
-[  NORMAL ]  Iteration 5: 	k_eff = 1.014887	res = 1.638E-02
-[  NORMAL ]  Iteration 6: 	k_eff = 1.014088	res = 1.688E-02
-[  NORMAL ]  Iteration 7: 	k_eff = 1.013033	res = 9.178E-03
-[  NORMAL ]  Iteration 8: 	k_eff = 1.012900	res = 7.674E-03
-[  NORMAL ]  Iteration 9: 	k_eff = 1.012628	res = 5.013E-03
-[  NORMAL ]  Iteration 10: 	k_eff = 1.012684	res = 3.767E-03
-[  NORMAL ]  Iteration 11: 	k_eff = 1.012686	res = 2.733E-03
-[  NORMAL ]  Iteration 12: 	k_eff = 1.012781	res = 1.933E-03
-[  NORMAL ]  Iteration 13: 	k_eff = 1.012850	res = 1.495E-03
-[  NORMAL ]  Iteration 14: 	k_eff = 1.012934	res = 1.030E-03
+[  NORMAL ]  Iteration 1: 	k_eff = 0.588282	res = 1.714E+05
+[  NORMAL ]  Iteration 2: 	k_eff = 0.797371	res = 3.858E+01
+[  NORMAL ]  Iteration 3: 	k_eff = 0.796484	res = 1.026E-01
+[  NORMAL ]  Iteration 4: 	k_eff = 0.795663	res = 3.327E-02
+[  NORMAL ]  Iteration 5: 	k_eff = 0.794967	res = 1.302E-02
+[  NORMAL ]  Iteration 6: 	k_eff = 0.794491	res = 7.851E-03
+[  NORMAL ]  Iteration 7: 	k_eff = 0.794132	res = 4.689E-03
+[  NORMAL ]  Iteration 8: 	k_eff = 0.793887	res = 3.087E-03
+[  NORMAL ]  Iteration 9: 	k_eff = 0.793713	res = 2.052E-03
+[  NORMAL ]  Iteration 10: 	k_eff = 0.793594	res = 1.401E-03
 [  TITLE  ]  *******************************************************************
 [  TITLE  ]                             TIMING REPORT                           
 [  TITLE  ]  *******************************************************************
-[  RESULT ]  Total time to solution...............................1.8182E+01 sec
-[  RESULT ]  Solution time per unknown............................1.6599E-05 sec
-[  RESULT ]  Solution time per iteration..........................1.2121E+00 sec
-[  RESULT ]  Integration time per segment integration.............1.0450E-08 sec
+[  RESULT ]  Total time to solution...............................1.0834E+01 sec
+[  RESULT ]  Solution time per unknown............................9.8905E-06 sec
+[  RESULT ]  Solution time per iteration..........................9.8490E-01 sec
+[  RESULT ]  Integration time per segment integration.............8.4907E-09 sec
 [SEPARATOR]  -------------------------------------------------------------------
 [  RESULT ]             # tracks          # segments          # FSRs
 [SEPARATOR]  -------------------------------------------------------------------
