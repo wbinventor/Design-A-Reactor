@@ -1,0 +1,47 @@
+Current local time and date: Sun Mar 23 19:19:55 2014
+[  TITLE  ]  *******************************************************************
+[  TITLE  ]           Simulating a Design-a-Critical Reactor Problem...         
+[  TITLE  ]  *******************************************************************
+[  NORMAL ]  Importing materials data from HDF5...
+[  NORMAL ]  Creating surfaces...
+[  NORMAL ]  Creating cells...
+[  NORMAL ]  Creating lattices...
+[  NORMAL ]  Creating geometry...
+[  NORMAL ]  Number of flat source regions: 156483
+[  NORMAL ]  Number of mesh cells: 3600
+[  NORMAL ]  Initializing the track generator...
+[  NORMAL ]  Ray tracing for track segmentation...
+[  NORMAL ]  Converging the source...
+[  NORMAL ]  creating surface currents of size: 201600
+[  NORMAL ]  Iteration 0: 	k_eff = 1.000000	res = 0.000E+00
+[  NORMAL ]  Iteration 1: 	k_eff = 0.801162	res = 1.771E+05
+[  NORMAL ]  Iteration 2: 	k_eff = 1.028672	res = 1.381E+01
+[  NORMAL ]  Iteration 3: 	k_eff = 1.025959	res = 2.896E-01
+[  NORMAL ]  Iteration 4: 	k_eff = 1.019736	res = 4.084E-02
+[  NORMAL ]  Iteration 5: 	k_eff = 1.014887	res = 1.638E-02
+[  NORMAL ]  Iteration 6: 	k_eff = 1.014088	res = 1.688E-02
+[  NORMAL ]  Iteration 7: 	k_eff = 1.013033	res = 9.178E-03
+[  NORMAL ]  Iteration 8: 	k_eff = 1.012900	res = 7.674E-03
+[  NORMAL ]  Iteration 9: 	k_eff = 1.012628	res = 5.013E-03
+[  NORMAL ]  Iteration 10: 	k_eff = 1.012684	res = 3.767E-03
+[  NORMAL ]  Iteration 11: 	k_eff = 1.012686	res = 2.733E-03
+[  NORMAL ]  Iteration 12: 	k_eff = 1.012781	res = 1.933E-03
+[  NORMAL ]  Iteration 13: 	k_eff = 1.012850	res = 1.495E-03
+[  NORMAL ]  Iteration 14: 	k_eff = 1.012934	res = 1.030E-03
+[  TITLE  ]  *******************************************************************
+[  TITLE  ]                             TIMING REPORT                           
+[  TITLE  ]  *******************************************************************
+[  RESULT ]  Total time to solution...............................1.8182E+01 sec
+[  RESULT ]  Solution time per unknown............................1.6599E-05 sec
+[  RESULT ]  Solution time per iteration..........................1.2121E+00 sec
+[  RESULT ]  Integration time per segment integration.............1.0450E-08 sec
+[SEPARATOR]  -------------------------------------------------------------------
+[  RESULT ]             # tracks          # segments          # FSRs
+[SEPARATOR]  -------------------------------------------------------------------
+[  RESULT ]               7760             2761822             156483             
+[SEPARATOR]  -------------------------------------------------------------------
+[  NORMAL ]  Plotting data...
+[  NORMAL ]  Plotting the flat source region scalar fluxes...
+[  TITLE  ]  *******************************************************************
+[  TITLE  ]                               Finished                             
+[  TITLE  ]  *******************************************************************
